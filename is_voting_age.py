@@ -2,9 +2,10 @@
 
 def is_voting_age(age):
     if age>=18:
-        print("True")
+        print("eligible for voting")
        
     else:
-       print("False")
+       print("not eligible for voting")
 
-is_voting_age(21)
+age =int(input("Enter your age:\n"))
+is_voting_age(age)
