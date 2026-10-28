@@ -8,4 +8,9 @@ def product_digits(n):
         n=n//10
     print(product)
 
-product_digits(123)
+    for i in n:
+        product*=int(i)
+    print(product)
+
+n=input("Enter a number:\n")
+product_digits(n)
