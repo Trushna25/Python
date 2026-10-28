@@ -4,7 +4,6 @@ def sum_natural(n):
     sum=0
     for i in range(1,n+1):
         sum=sum+i
-    print("sum of natural numbers from 1 to",n,"is",sum)
-
+    print("The sum of natural numbers from 1 to", n, "is:", sum)
 num=int(input("Enter a number:\n"))
 sum_natural(num)
